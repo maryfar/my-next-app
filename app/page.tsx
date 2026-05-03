@@ -1,7 +1,8 @@
+import LatestProduct from "./components/LatestProduct";
 export default function Home() {
   return (
-    <div className="h-1/2">
-      <p>hello</p>
+    <div className="h-screen">
+      <LatestProduct />
     </div>
   );
 }
