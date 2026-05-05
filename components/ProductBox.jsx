@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { enTofa } from "../utils/priceUtils";
+import Link from "next/link";
 
 export default function ProductBox({ product }) {  
     return (
@@ -12,7 +13,10 @@ export default function ProductBox({ product }) {
                 className="rounded-t-2xl object-cover"
             />
             <div className="flex flex-col p-2 gap-2">
-                <span className="truncate w-48">{product.title}</span>
+                <Link href={`products/${product.id}`} > 
+                  <span className="truncate w-48">{product.title}</span>
+                  </Link>
+             
                 <div className="flex justify-between flex-col items-center mt-2">
                 <span className="text-green-600 font-bold">
                         {enTofa(product.originalPrice)} تومان

@@ -8,7 +8,8 @@ import ProductList from "./ProductList";
       originalPrice: 59900000,
       discountPrice: 45900000,
       image: "/images.jpeg",
-      discountPercent: 23
+      discountPercent: 23,
+      description: " لپ تاپ کاستوم به معنی ارتقا فنی بعضی قطعات لپ تاپ نو (آکبند) و بر اساس استاندارد شرکت تولیدکننده است، لطفا برای اطلاعات بیشتر در این مورد، به سوالات متداول مراجعه فرمایید."
     },
     {
       id: 2,
@@ -16,7 +17,9 @@ import ProductList from "./ProductList";
       originalPrice: 24900000,
       discountPrice: 18900000,
       image: "/images.jpeg",
-      discountPercent: 24
+      discountPercent: 24,
+      description: " لپ تاپ کاستوم به معنی ارتقا فنی بعضی قطعات لپ تاپ نو (آکبند) و بر اساس استاندارد شرکت تولیدکننده است، لطفا برای اطلاعات بیشتر در این مورد، به سوالات متداول مراجعه فرمایید."
+
     },
     {
       id: 3,
@@ -24,7 +27,9 @@ import ProductList from "./ProductList";
       originalPrice: 39900000,
       discountPrice: 32500000,
       image: "/images.jpeg",
-      discountPercent: 18
+      discountPercent: 18,
+      description: " لپ تاپ کاستوم به معنی ارتقا فنی بعضی قطعات لپ تاپ نو (آکبند) و بر اساس استاندارد شرکت تولیدکننده است، لطفا برای اطلاعات بیشتر در این مورد، به سوالات متداول مراجعه فرمایید."
+
     },
     {
       id: 4,
@@ -32,7 +37,9 @@ import ProductList from "./ProductList";
       originalPrice: 15900000,
       discountPrice: 12500000,
       image: "/images.jpeg",
-      discountPercent: 21
+      discountPercent: 21,
+      description: " لپ تاپ کاستوم به معنی ارتقا فنی بعضی قطعات لپ تاپ نو (آکبند) و بر اساس استاندارد شرکت تولیدکننده است، لطفا برای اطلاعات بیشتر در این مورد، به سوالات متداول مراجعه فرمایید."
+
     },
     {
       id: 5,
@@ -40,7 +47,9 @@ import ProductList from "./ProductList";
       originalPrice: 35900000,
       discountPrice: 28900000,
       image: "/images.jpeg",
-      discountPercent: 19
+      discountPercent: 19,
+      description: " لپ تاپ کاستوم به معنی ارتقا فنی بعضی قطعات لپ تاپ نو (آکبند) و بر اساس استاندارد شرکت تولیدکننده است، لطفا برای اطلاعات بیشتر در این مورد، به سوالات متداول مراجعه فرمایید."
+
     }
   ];
 
